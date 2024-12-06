@@ -1,0 +1,120 @@
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    transition: background-color 0.5s, color 0.5s;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--header-bg, #444);
+    color: var(--header-color, #fff);
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.theme-btn {
+    margin: 0 5px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.theme-btn:hover {
+    opacity: 0.8;
+}
+
+/* Login Screen */
+#login-screen {
+    text-align: center;
+    padding: 50px;
+    margin-top: 100px;
+}
+
+#login-screen input {
+    padding: 10px;
+    margin: 10px;
+    width: 80%;
+    max-width: 300px;
+}
+
+#login-screen button {
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+/* Expenses Table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table th, table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+}
+
+.actions button {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 0 5px;
+}
+
+.actions .edit {
+    background-color: #ffa500;
+    color: #fff;
+}
+
+.actions .delete {
+    background-color: #ff4444;
+    color: #fff;
+}
+
+/* Themes */
+.theme-light {
+    --header-bg: #f4f4f4;
+    --header-color: #000;
+    background-color: #fff;
+    color: #000;
+}
+
+.theme-dark {
+    --header-bg: #444;
+    --header-color: #fff;
+    background-color: #000;
+    color: #fff;
+}
+
+/* Chart Container */
+canvas {
+    width: 100%;
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+
+
+
+
+
+
+
+
+
